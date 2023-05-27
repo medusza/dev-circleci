@@ -39,7 +39,7 @@ jobs:
           command: python3 main.py
       - run:
           name: Run fake test
-          command: python3 main-test.py
+          command: python3 main_test.py
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
